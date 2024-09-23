@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.border{
+    border: 1px solid red;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    padding: 10px 15px;
+}
+.navleft{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+}
+.navright{
+    width: 80%;
+    height: 100%;
+ 
+}
+.navleft img{
+    width: 40%;
+    height: 100%;
+    mix-blend-mode: multiply;
+    /* filter: contrast(1); */  
+}
+.navrightupper{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;  
+    justify-content: end;
+    font-size: 12px;
+    color: rgba(0, 0, 0,0.7);
+}
+.navrightupper span{
+    margin-left: 0.5%;
+}
+
+.navrightupper div{
+    width: 15%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 2%;
+    background-color: rgba(100, 59, 59, 0.8);
+    color: rgba(255,255, 255,0.7);
+
+}
+.navrightlower{
+    width: 100%;
+    height: 60%;
+}
+.navrightlower ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+    margin-top: 1.5%;
+    color:  rgb(50, 29, 29);
+    font-weight: 600;
+    
+}
+.main{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(57, 31, 31);
+    color: #fff;
+    padding: 2.5% 0px 0px 2.5%;
+   
+
+    
+}
+.mainpera{
+    width: 45%;
+    height: 50%;
+}
+.firstp{
+    font-weight:lighter;
+}
+.secondp{
+    font-size: 25px;
+    padding: 2px 0px 5px 0px;
+    
+}
+.thirdp, .forthp{
+    font-size: 13px;
+    
+}
+.thirdp{
+    padding: 10px 0px 20px 0px;
+}
+
+.getform{
+    width: 60%;
+    height: 59.2vh;
+    background-color: #fff;
+    margin: 0px auto 0px auto;
+    display: flex;
+}
+.leftgetform{
+    width: 65%;
+    height: 100%;
+    color: #000;
+}
+.getimagepost{
+    margin: 30px 20px;
+}
+.leftgetformdiv{
+    width: 75%;
+    height: 70%;
+    margin: 10px auto;
+    /* padding: 10px; */
+} 
+.leftgetformdiv1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8%;
+}
+.leftgetformdiv1 div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* margin-left: ; */
+}
+.leftgetformdiv1 div i{
+    font-size: 20px;
+}
+.leftgetformdiv1 div input{
+    border: none;
+    outline: none;
+    font-size: 10px;
+    width: 80%;
+    margin-left: 10px;
+    padding: 10px 0px;
+    padding-left: 5px;
+    /* text-decoration: 2px solid black underline; */
+    border-bottom: 2px solid rgba(0, 0, 0,0.2);
+}
+.leftgetformdiv2{
+    width: 100%;
+}
+.leftgetformdiv2 div{
+    width: 100%;
+}
+.leftgetformdiv2 div input{
+    width: 100%;
+}
+.leftgetformdiv3{
+    /* margin-bottom: 5%; */
+}
+
+.leftgetformdiv3 div input{
+    padding: 30px;
+    padding-left: 5px;
+}
+.submitdiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit{
+    padding: 1% 40%;
+    border-radius: 30px;
+    border: none;
+    background-color:rgb(94, 96, 96);
+    color: #fff;
+
+}
+
+.rightgetform{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(159, 159, 159);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contacttext{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+.rightgetform img{
+    width: 100%;
+    height: 40%;
+}
+.rightgetformdiv1{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+    border-top: 2px solid #4f4d4d;
+}
+.sidetext{
+    font-size: 10px;
+}
+.sidetext  p{
+    margin: 2px;
+}
+pre{
+    line-height: 15px;
+}
+.rightgetformdiv1 div i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#rightgetformid2{
+    /* margin: 2px 0px 0px 0px; */
+}
+#rightgetformid3{
+    height: 20%;
+    padding-top: 15px;
+}
